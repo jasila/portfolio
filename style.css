@@ -1,0 +1,112 @@
+/*GENERELLE CSS INDSTILLINGER*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5DB
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+
+    font-family: eurostile, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 3rem;
+    color: #1716AF;
+
+}
+
+
+
+/****************SPLASH*********************************/
+
+#splash {
+    width: 90%;
+    height: 60vw;
+    background-image: url(1x/splash.png);
+    background-size: cover;
+    background-position: 5% 0%;
+    max-width: none;
+}
+
+.web {
+    position: absolute;
+    margin-left: 14vw;
+
+    height: 8vw;
+    margin-top: 10VW;
+    width: 26vw;
+    transform: rotate(149deg)
+}
+
+
+.portfolio {
+    position: absolute;
+    width: 10%;
+    margin-top: 1em;
+
+
+}
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+#splash {
+
+    width: 100%;
+        margin-left: 4vw;
+
+}
+
+
+
+.animation {
+    position: absolute;
+    width: 40%;
+    margin-top: 6vw;
+    margin-left: 40vw;
+}
+
+.ux {
+    position: absolute;
+    width: 15%;
+    margin-left: 45vw;
+    margin-top: 25vw;
+
+}
+
+.indhold {
+    position: absolute;
+    width: 30%;
+    margin-top: 17vw;
+    margin-left: 20vw;
+}
+
+.portfolio {
+    width: 7%;
+    margin-top: 5vw;
+    margin-left: 2vw;
+
+}
+*/
