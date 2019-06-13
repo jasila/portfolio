@@ -16,9 +16,7 @@ img {
 h1 {
 
     font-family: eurostile, sans-serif;
-
     font-weight: 700;
-
     font-style: normal;
     font-size: 2rem;
     color: #1716AF;
@@ -28,9 +26,7 @@ h1 {
 h2 {
 
     font-family: eurostile, sans-serif;
-
     font-weight: 700;
-
     font-style: normal;
     font-size: 1rem;
     color: #1716AF;
@@ -106,13 +102,112 @@ p {
 
 .portfolio {
     position: absolute;
-    width: 6.8%;
-    margin-top: 5rem;
-    margin-left: 4rem;
+    width: 7%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+}
+
+/*******************  Burgermenuen ********************************/
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(+100%);
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10vw;
+    padding: 4vw;
+
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menuknap img {
+    width: 7%;
+    position: absolute;
+    right: 2vw;
+    top: 4vw;
+
 
 }
 
 
+
+.header img {
+    width: 27%;
+    /*
+    margin-top: 2rem;
+    margin-left: 2.9rem;
+*/
+}
+
+
+
+/*postion får det til at ligge sig ovenpå det hele*/
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: transform .3s;
+    transform-origin: top left;
+    height: 50%;
+    background-color: floralwhite;
+    top: 0%;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    z-index: 2;
+
+
+}
+
+#menu a {
+    color: #1716AF;
+    font-family: eurostile, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 2rem;
+
+}
+
+
+#menu img {
+    margin-top: 95px;
+    margin-bottom: 60px;
+    right: 5vw;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+
+}
+
+
+/*************************startside***********************************/
 
 /****************************OM**************************/
 
@@ -127,33 +222,41 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     margin: 4vw;
 
-
 }
+
+
 
 .jenny {
 
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
-    border: 2px solid 1716AF;
-    margin: 2rem;
-
-
-
+    margin-top: 2vw;
+    flex-basis: 300px;
 }
 
+
+
+
+.txt {
+
+    width: 15vw;
+    flex-basis: 300px;
+}
 
 
 #project {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 4vw;
+    margin: vw;
 
 
 }
+
 
 
 
@@ -162,74 +265,8 @@ p {
     width: 30vw;
     height: 20vw;
 
-    border: 2px solid 1716AF;
+    border: 2px solid #1716AF;
     margin: 2rem;
 
 
 }
-
-
-/*********web**********/
-
-#content {
-    flex-wrap: wrap;
-    display: flex;
-    margin-left: 4rem;
-    justify-content: center;
-}
-
-.pic {
-    height: 50vw;
-    width: 50vw;
-    flex-basis: 300px;
-}
-
-.txt p {
-    height: 20vw;
-    width: 50vw;
-    flex-basis: 300px;
-    border: 0.5px solid #1716AF;
-}
-
-/*
-
-
-#splash {
-
-    width: 100%;
-        margin-left: 4vw;
-
-}
-
-
-
-.animation {
-    position: absolute;
-    width: 40%;
-    margin-top: 6vw;
-    margin-left: 40vw;
-}
-
-.ux {
-    position: absolute;
-    width: 15%;
-    margin-left: 45vw;
-    margin-top: 25vw;
-
-}
-
-.indhold {
-    position: absolute;
-    width: 30%;
-    margin-top: 17vw;
-    margin-left: 20vw;
-}
-
-.portfolio {
-    width: 7%;
-    margin-top: 5vw;
-    margin-left: 2vw;
-
-}
-*/
-*/
