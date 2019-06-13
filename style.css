@@ -20,8 +20,32 @@ h1 {
     font-weight: 700;
 
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #1716AF;
+
+}
+
+h2 {
+
+    font-family: eurostile, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 1rem;
+    color: #1716AF;
+
+}
+
+p {
+    font-family: eb-garamond, serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: #1716AF;
+
+
 
 }
 
@@ -41,7 +65,6 @@ h1 {
 .web {
     position: absolute;
     margin-left: 14vw;
-
     height: 8vw;
     margin-top: 10VW;
     width: 26vw;
@@ -49,27 +72,126 @@ h1 {
 }
 
 
+.animation {
+    position: absolute;
+    margin-left: 39vw;
+    height: 10vw;
+    margin-top: 16VW;
+    width: 55vw;
+    transform: rotate(31deg);
+}
+
+
+.ux {
+    position: absolute;
+    margin-left: 55vw;
+    height: 10vw;
+    margin-top: 28VW;
+    width: 15vw;
+    transform: rotate(40deg);
+
+}
+
+.indhold {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 22vw;
+    height: 18vw;
+    width: 24vw;
+    transform: rotate(3deg);
+
+}
+
+
+
 .portfolio {
     position: absolute;
-    width: 10%;
-    margin-top: 1em;
+    width: 6.8%;
+    margin-top: 5rem;
+    margin-left: 4rem;
+
+}
+
+
+
+/****************************OM**************************/
+
+
+
+
+
+
+
+
+#om {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4vw;
+
+
+}
+
+.jenny {
+
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 2px solid 1716AF;
+    margin: 2rem;
+
 
 
 }
 
 
 
+#project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4vw;
+
+
+}
+
+
+
+.tema {
+
+    width: 30vw;
+    height: 20vw;
+
+    border: 2px solid 1716AF;
+    margin: 2rem;
+
+
+}
+
+
+/*********web**********/
+
+#content {
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 4rem;
+    justify-content: center;
+}
+
+.pic {
+    height: 50vw;
+    width: 50vw;
+    flex-basis: 300px;
+}
+
+.txt p {
+    height: 20vw;
+    width: 50vw;
+    flex-basis: 300px;
+    border: 0.5px solid #1716AF;
+}
+
 /*
-
-
-
-
-
-
-
-
-
-
 
 
 #splash {
@@ -109,4 +231,5 @@ h1 {
     margin-left: 2vw;
 
 }
+*/
 */
