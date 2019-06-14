@@ -45,7 +45,16 @@ p {
 
 }
 
+li {
+    font-family: eb-garamond, serif;
+    font-weight: 20;
+    font-style: normal;
+    color: #312783;
+    font-size: 1.5rem;
 
+
+
+}
 
 /****************SPLASH*********************************/
 
@@ -167,7 +176,7 @@ p {
     background-color: floralwhite;
     top: 0%;
     position: fixed;
-    left: 0%;
+    left: 70%;
     right: 0%;
     text-align: center;
     z-index: 2;
@@ -198,7 +207,7 @@ p {
 
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 2000px) {
 
     #menuknap {
         display: none;
@@ -215,96 +224,106 @@ p {
 
 /*************************startside***********************************/
 
+
+#frame .pil_box {
+
+    text-align: center;
+    justify-content: center;
+}
+
+#frame .pil {
+    width: 10vw;
+
+
+}
+
+
+.blink {
+    animation-name: blink_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes blink_kf {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
+}
+}
+
 /****************************OM**************************/
 
 
-
-
-
-
-
-
-#om {
+#frame {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     flex-direction: column;
-    margin-top: 5vw;
+
 
 }
 
-#om h1 {
-
-    margin-left: 8vw;
-    border-bottom: 1px solid #312783;
-
+#frame h1 {
+    text-align: center;
+    border-bottom: solid 0.09px #312783;
+    padding: 25px;
+    margin: 150px;
 }
 
-
-
-
-#om .jenny {
+#frame afsnit {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
 }
 
 
-#om img {
-
-    width: 25vw;
-    height: 25vw;
+#frame img {
     border-radius: 50%;
-    flex-basis: 300px;
+    width: 220px;
+    height: 220px;
+
 }
 
-
-
-
-
-#om .txt {
-    display: flex;
+#frame .pic {
     flex-wrap: wrap;
-    flex-basis: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#frame .pic2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+
+#frame .pic2 img {
+    border-radius: 0;
+}
+
+#frame .txt_box {
+
+    border-radius: 50%;
+
     flex-grow: 1;
-    justify-content: center;
+    flex-basis: 500px;
+    text-align: center;
+    list-style: none;
 
-}
-
-#om .txt p {
-    width: 40vw;
-    height: 20vw;
 
 
 }
 
-
-#project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-}
-
-#project h1 {
-
-    margin-left: 8vw;
-    border-bottom: 1px solid #312783;
-}
-
-
-
-
-#project .tema {
-
-    width: 30vw;
-    height: 20vw;
-    border: 2px solid #1716AF;
-    margin: 2rem;
-
+#frame .txt_box li {
+    list-style: none;
 
 }
