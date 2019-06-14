@@ -19,7 +19,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
-    color: #1716AF;
+    color: #312783;
 
 }
 
@@ -29,7 +29,7 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 1rem;
-    color: #1716AF;
+    color: #312783;
 
 }
 
@@ -39,7 +39,7 @@ p {
     font-weight: 400;
 
     font-style: normal;
-    color: #1716AF;
+    color: #312783;
 
 
 
@@ -56,15 +56,18 @@ p {
     background-size: cover;
     background-position: 5% 0%;
     max-width: none;
+
 }
+
+
 
 .web {
     position: absolute;
-    margin-left: 14vw;
+    margin-left: 17vw;
     height: 8vw;
-    margin-top: 10VW;
-    width: 26vw;
-    transform: rotate(149deg)
+    margin-top: 17VW;
+    width: 25vw;
+    transform: rotate(149deg);
 }
 
 
@@ -72,29 +75,32 @@ p {
     position: absolute;
     margin-left: 39vw;
     height: 10vw;
-    margin-top: 16VW;
-    width: 55vw;
+    margin-top: 20VW;
+    width: 53vw;
     transform: rotate(31deg);
+
 }
 
 
 .ux {
     position: absolute;
-    margin-left: 55vw;
+    margin-left: 59vw;
     height: 10vw;
-    margin-top: 28VW;
+    margin-top: 36VW;
     width: 15vw;
     transform: rotate(40deg);
+
 
 }
 
 .indhold {
     position: absolute;
-    margin-left: 25vw;
-    margin-top: 22vw;
+    margin-left: 29vw;
+    margin-top: 28vw;
     height: 18vw;
     width: 24vw;
     transform: rotate(3deg);
+
 
 }
 
@@ -120,7 +126,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 10vw;
+    height: 5vw;
     padding: 4vw;
 
 }
@@ -223,28 +229,56 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
-    margin: 4vw;
+    margin-top: 5vw;
+
+}
+
+#om h1 {
+
+    margin-left: 8vw;
+    border-bottom: 1px solid #312783;
 
 }
 
 
 
-.jenny {
 
-    width: 20vw;
-    height: 20vw;
+#om .jenny {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+
+#om img {
+
+    width: 25vw;
+    height: 25vw;
     border-radius: 50%;
-    margin-top: 2vw;
     flex-basis: 300px;
 }
 
 
 
 
-.txt {
 
-    width: 15vw;
+#om .txt {
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 300px;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+#om .txt p {
+    width: 40vw;
+    height: 20vw;
+
+
 }
 
 
@@ -252,19 +286,23 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: vw;
 
 
+}
+
+#project h1 {
+
+    margin-left: 8vw;
+    border-bottom: 1px solid #312783;
 }
 
 
 
 
-.tema {
+#project .tema {
 
     width: 30vw;
     height: 20vw;
-
     border: 2px solid #1716AF;
     margin: 2rem;
 
