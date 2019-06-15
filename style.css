@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-    font-family: eb-garamond, serif;
+    font-family: eurostile, sans-serif;
 
     font-weight: 400;
 
@@ -283,15 +283,17 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 
 
 }
 
 #frame h1 {
     text-align: center;
-    border-bottom: solid 0.09px #312783;
+    /*    border-bottom: solid 0.09px #312783;*/
     padding: 25px;
-    margin: 150px;
+    /*    margin: 150px;*/
 }
 
 #frame afsnit {
@@ -301,10 +303,7 @@ li {
 }
 
 
-#frame img {
-    border-radius: 50%;
-    width: 220px;
-    height: 220px;
+
 
 }
 
@@ -312,7 +311,35 @@ li {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    position: relative;
 
+}
+
+#frame .pic img {
+    position: absolute;
+    width: 75vw;
+
+}
+
+.pic .spin {
+    animation-name: spin_kf;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes spin_kf {
+
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
 }
 
 #frame .pic2 {
@@ -436,3 +463,6 @@ footer {
     font-style: normal;
     color: #312783;
 }
+
+
+/******************************  WEB   ***********************/
