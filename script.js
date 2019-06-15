@@ -19,11 +19,11 @@ function toggleMenu() {
     let erSkjult = document.querySelector("#menu").classList.contains("hidden");
     // hvis navmuligheder er skjult, så skal man se en burgermenu
     if (erSkjult == true) {
-        document.getElementById("menuknap").src = "startside/ui/menu.svg"
+        document.getElementById("menuknap").src = "/1x/menu_1.svg"
     }
 
-    //hvis i navmuligheder er skjult skal man se et kryds
+    //hvis i navmuligheder er fremme skal man se et kryds
     else {
-        document.getElementById("menuknap").src = "startside/ui/menu.svg"
+        document.getElementById("menuknap").src = "/startside/ui/menu.svg"
     }
 }

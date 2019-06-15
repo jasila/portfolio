@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
-    background-color: #E5E5DB
+    background-color: #E5E5DB;
 }
 
 img {
@@ -138,18 +142,23 @@ li {
     height: 5vw;
     padding: 4vw;
 
+
 }
 
 #menuknap {
     display: inline-block;
+
+
+
+
 }
 
 #menuknap img {
     width: 7%;
-    position: absolute;
+    position: fixed;
     right: 2vw;
-    top: 4vw;
-
+    top: 2vw;
+    z-index: 3000;
 
 }
 
@@ -172,22 +181,22 @@ li {
     flex-direction: column;
     transition: transform .3s;
     transform-origin: top left;
-    height: 50%;
+    height: 100%;
     background-color: floralwhite;
-    top: 100px;
+    top: 0%;
     position: fixed;
     left: 70%;
     right: 0%;
     text-align: center;
-    z-index: 2;
-
+    z-index: 300;
+    padding-top: 5rem;
 
 }
 
 #menu a {
     color: #1716AF;
     font-family: eurostile, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     margin-top: 2rem;
@@ -203,9 +212,16 @@ li {
 
 
 
-
-
-
+.menu_footer {
+    color: #1716AF;
+    font-family: eurostile, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
 
 @media only screen and (min-width: 2000px) {
 
@@ -327,6 +343,83 @@ li {
     list-style: none;
 
 }
+
+#frame2 .projekter {
+    height: 25vh;
+    width: 25vh;
+    background-color: ;
+
+}
+
+#frame2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+#frame2 h1 {
+    text-align: center;
+    border-bottom: solid 0.09px #312783;
+    padding: 25px;
+    margin: 150px;
+}
+
+
+#frame2 .pic2 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-right: calc(-2em + 20vw);
+    margin-left: calc(-2em + 20vw);
+
+
+
+
+}
+
+#frame2 .pic2 img {
+    border-radius: 0;
+}
+
+#frame2 .projekt1 {
+    background-image: url(startside/projekter/Sk%C3%A6rmbillede%202019-06-12%20kl.%2012.50.20.png);
+    background-size: cover;
+}
+
+#frame2 .projekt2 {
+    background-image: url(startside/projekter/Sk%C3%A6rmbillede%202019-06-12%20kl.%2012.56.50.png);
+    background-size: cover;
+}
+
+#frame2 .projekt3 {
+    background-image: url(startside/projekter/fck.png);
+    background-size: cover;
+}
+
+#frame2 .projekt4 {
+    background-image: url(startside/projekter/projects.png);
+    background-size: cover;
+}
+
+
+
+
+footer {
+    background-color: #312783;
+    height: 100px;
+
+    color: #E5E5DB;
+    text-align-last: center;
+    font-family: eurostile, sans-serif;
+
+
+}
+
+
+
+
 
 
 
