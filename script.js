@@ -24,6 +24,6 @@ function toggleMenu() {
 
     //hvis i navmuligheder er skjult skal man se et kryds
     else {
-        document.getElementById("menuknap").src = "startside/ui/.svg"
+        document.getElementById("menuknap").src = "startside/ui/menu.svg"
     }
 }

@@ -174,7 +174,7 @@ li {
     transform-origin: top left;
     height: 50%;
     background-color: floralwhite;
-    top: 0%;
+    top: 100px;
     position: fixed;
     left: 70%;
     right: 0%;
@@ -326,4 +326,20 @@ li {
 #frame .txt_box li {
     list-style: none;
 
+}
+
+
+
+/******************CV***********************/
+
+
+.knap {
+    border: 1px solid #312783;
+    padding: 10px 20px;
+    font-family: eurostile, sans-serif;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #312783;
 }
