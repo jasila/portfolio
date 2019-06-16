@@ -257,7 +257,12 @@ ul {
 
 }
 
-.pil_box2 {}
+.pil_box2 {
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+    text-align: center;
+}
+
 
 .pil {
     width: 3vw;
@@ -385,6 +390,22 @@ ul {
 
 }
 
+
+.knap {
+    border: 1px solid #312783;
+    padding: 10px 20px;
+    font-family: eurostile, sans-serif;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #312783;
+    z-index: 100;
+}
+
+
+
+
 #frame .txt_box li {
     list-style: none;
 
@@ -472,24 +493,10 @@ footer {
 /******************CV***********************/
 
 
-.knap {
-    border: 1px solid #312783;
-    padding: 10px 20px;
-    font-family: eurostile, sans-serif;
-    background-color: rgba(240, 248, 255, 0);
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-style: normal;
-    color: #312783;
-    z-index: 100;
-}
-
-
-
 
 
 #frame_cv img {
-    height: 50vh;
+    height: 55vh;
     position: absolute;
     pointer-events: none;
 }
@@ -545,10 +552,11 @@ footer {
 #section_wrapper {
     flex-wrap: block;
     display: flex;
-    margin-top: 45vh;
+    margin-top: 55vh;
     justify-content: center;
     align-items: baseline;
     list-style-type: none;
+    margin-bottom: 20vh;
 }
 
 ul {
@@ -563,27 +571,84 @@ ul {
 
 .col_left {
     text-align: right;
+    margin-left: 80px;
 
 }
 
 
+#section_wrapper .li_heading {
+    font-family: eurostile, sans-serif;
+    font-weight: 700;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#section_wrapper .col_right li {
+    font-weight: 700;
+}
 
 
 
 /******************************  WEB   ***********************/
+
+#splash2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+}
+
+
+#tema_indhold {
+    padding: 10vh 15vw;
+    text-align: center;
+
+
+
+
+
+}
+
+#tema_indhold .row_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 600px;
+    flex-grow: 1;
+    margin-bottom: 10vh;
+
+
+}
+
+#tema_indhold h1 {
+    margin-bottom: 20vh;
+}
+
+#tema_indhold .element {}
+
+.tema_pic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.tema_pic img {
+
+    border-radius: 50%;
+    flex-basis: 300px;
+    flex-grow: 1;
+    width: 33vw;
+    height: 33vw;
+
+}
+
+.tema_txt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: middle;
+    background-color: red;
+    width: 33vw;
+    height: 33vw;
+
+}
