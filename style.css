@@ -21,6 +21,10 @@ nav {
     overflow: hidden;
 }
 
+header {
+    overflow: hidden;
+}
+
 img {
     width: 100%;
 }
@@ -76,14 +80,14 @@ ul {
 /****************SPLASH*********************************/
 
 #splash {
-    width: 90%;
+    width: 100%;
     height: 60vw;
     background-image: url(/1x/splash.png);
     background-size: cover;
     background-position: 5% 0%;
     max-width: none;
-    z-index: 2;
-    margin-top: -10vh;
+    margin-top: 1vh;
+    /*    margin-top: -10vh;*/
 
 }
 
@@ -133,14 +137,6 @@ ul {
 }
 
 
-
-.portfolio {
-    position: absolute;
-    width: 7%;
-    margin-top: 2rem;
-    margin-left: 1rem;
-
-}
 
 /*******************  Burgermenuen ********************************/
 .hidden {
@@ -324,13 +320,17 @@ ul {
     height: 90vh;
     position: absolute;
 
+
+
 }
 
 
 
 
 
-#frame img .ceo {}
+#img .spin {
+    width: 10vw;
+}
 
 #frame .spin {
     animation-name: spin_kf;
@@ -338,6 +338,7 @@ ul {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     pointer-events: none;
+    overflow-x: hidden;
 
 
 }
@@ -357,14 +358,10 @@ ul {
 #frame .knap {
 
     top: 87vh;
-    width: 20vw;
     left: 40vw;
-
-
     flex-grow: 1;
     flex-basis: 500px;
     text-align: center;
-
     position: absolute;
     z-index: 200;
     cursor: pointer;
@@ -548,7 +545,6 @@ footer {
     width: 20vw;
     left: 40vw;
 
-
     flex-grow: 1;
     flex-basis: 500px;
     text-align: center;
@@ -566,7 +562,7 @@ footer {
 
 
 #section_wrapper {
-    flex-wrap: block;
+    flex-wrap: wrap;
     display: flex;
     margin-top: 55vh;
     justify-content: center;
@@ -641,7 +637,7 @@ ul {
 #tema_indhold .row_1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-basis: 200px;
     flex-grow: 1;
 
@@ -667,8 +663,10 @@ ul {
 }
 
 .tema_pic {
+    /*
     display: flex;
     flex-wrap: wrap;
+*/
     align-items: center;
 
 }
@@ -676,8 +674,7 @@ ul {
 .tema_pic img {
 
     border-radius: 50%;
-    width: 33vw;
-    height: 33vw;
+
 
 }
 
