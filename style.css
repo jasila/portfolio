@@ -151,7 +151,7 @@ ul {
     flex-wrap: wrap;
     width: 100%;
     height: 5vw;
-    padding: 4vw;
+    padding: 10vw;
 
 
 }
@@ -197,11 +197,11 @@ ul {
     background-color: floralwhite;
     top: 0%;
     position: fixed;
-    left: 70%;
+    left: 50%;
     right: 0%;
     text-align: center;
     z-index: 300;
-    padding-top: 5rem;
+    padding-top: 2rem;
 
 }
 
@@ -256,7 +256,6 @@ ul {
 .pil_box {
 
     text-align: center;
-    margin-top: -10vh;
 
 }
 
@@ -298,18 +297,24 @@ ul {
 
 /****************************OM**************************/
 
+.wrapper {
+    flex-wrap: wrap;
+    display: flex;
+
+}
 
 #frame {
-    /*
+
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-*/
-
     position: relative;
-    height: 100vh;
-    width: 100vw;
     justify-content: center;
+    flex-basis: 300px;
+    flex-grow: 1;
+    top: 0;
+    left: 0;
+    margin-top: 10vh;
+}
 
 }
 
@@ -317,16 +322,28 @@ ul {
 
 
 #frame img {
-    height: 90vh;
+    /*    height: 90vh;*/
     position: absolute;
 
 
 
 }
 
+#frame .ceo {
+    flex-basis: 300px;
+    flex-grow: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
 
 
+#frame .spin {
+    position: relative;
+    bottom: 149px;
+    left: 0.5px;
+}
 
 #img .spin {
     width: 10vw;
@@ -357,14 +374,13 @@ ul {
 
 #frame .knap {
 
-    top: 87vh;
-    left: 40vw;
-    flex-grow: 1;
-    flex-basis: 500px;
+
     text-align: center;
-    position: absolute;
     z-index: 200;
     cursor: pointer;
+    position: absolute;
+    top: 20vh;
+
 }
 
 
@@ -415,9 +431,45 @@ ul {
 
 }
 
+
+#frame2 .pic2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    justify-content: center;
+
+
+
+
+}
+
+#frame2 a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+
+
+}
+
+
+
 #frame2 .projekter {
-    height: 25vh;
-    width: 25vh;
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 50%;
+
+
+}
+
+.projekter img {
+    flex-basis: 100px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
 
 
 }
@@ -427,8 +479,11 @@ ul {
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 34vh;
-
+    flex-basis: 300px;
+    flex-grow: 1;
 }
+
+
 
 #frame2 h1 {
     text-align: center;
@@ -437,22 +492,7 @@ ul {
 }
 
 
-#frame2 .pic2 {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15vh;
 
-
-
-
-}
-
-
-#frame2 .projekter {
-    border-radius: 50%;
-    text-align: center;
-}
 
 #frame2 p {
 
@@ -461,27 +501,13 @@ ul {
 
 #frame2 a {
     text-decoration: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+
 }
 
-#frame2 .projekt1 {
-    background-image: url(startside/projekter/Sk%C3%A6rmbillede%202019-06-12%20kl.%2012.50.20.png);
-    background-size: cover;
-}
 
-#frame2 .projekt2 {
-    background-image: url(startside/projekter/Sk%C3%A6rmbillede%202019-06-12%20kl.%2012.56.50.png);
-    background-size: cover;
-}
-
-#frame2 .projekt3 {
-    background-image: url(startside/projekter/fck.png);
-    background-size: cover;
-}
-
-#frame2 .projekt4 {
-    background-image: url(startside/projekter/projects.png);
-    background-size: cover;
-}
 
 
 
